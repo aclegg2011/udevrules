@@ -54,6 +54,8 @@ SUBSYSTEM=="usb", ATTR{idVendor}=="2c3f", GROUP="sudo"
 SUBSYSTEM=="usb", ATTR{idVendor}=="2080", GROUP="sudo"
 #Nvidia
 SUBSYSTEM=="usb", ATTR{idVendor}=="0955", GROUP="sudo"
+#OnePlus
+SUBSYSTEM=="usb", ATTR{idVendor}=="2a70", GROUP="sudo"
 #Oppo
 SUBSYSTEM=="usb", ATTR{idVendor}=="22d9", GROUP="sudo"
 #OTGV
